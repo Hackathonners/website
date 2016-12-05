@@ -1,5 +1,7 @@
 var elixir = require('laravel-elixir');
 
+require('laravel-elixir-webpack');
+
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -17,6 +19,7 @@ var paths = {
 
 elixir(function(mix) {
     mix.sass('app.scss');
+    mix.webpack('app.js');
 
     mix.styles([
         'public/css/app.css',

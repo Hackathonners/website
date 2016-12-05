@@ -1,11 +1,14 @@
 {
   "private": true,
   "devDependencies": {
-    "gulp": "^3.8.8"
+    "gulp": "^3.8.8",
+    "laravel-elixir-webpack": "^1.0.1"
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "font-awesome": "^4.7.0",
-    "laravel-elixir": "^6.0.0-15"
+    "jquery": "^3.1.1",
+    "laravel-elixir": "^6.0.0-15",
+    "wowjs": "^1.1.3"
   }
 }
