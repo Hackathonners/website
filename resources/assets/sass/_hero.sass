@@ -1,13 +1,12 @@
 .hero
 	position: relative
-	padding-top: 60px
-	// background-image: url('../images/bg.svg')
-	// background-repeat: no-repeat;
-	// background-size: cover;
-	//
 	.hero-image
 		img
-			margin-top: -40px
+			@media (min-width: $screen-sm-min)
+				margin-top: -60px
+
+			@media (max-width: $screen-sm-min)
+				display: none
 			width: 100%
 
 

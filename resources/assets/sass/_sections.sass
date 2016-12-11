@@ -1,7 +1,11 @@
 .section
-	padding-top: 80px
+	padding-top: 60px
+	padding-bottom: 60px
 
 	.section-heading
+		.head-title
+			font-weight: 400
+			margin-top: 0
 		.section-line
 			margin: 20px auto
 			height: 2px
@@ -10,3 +14,69 @@
 
 	&-small
 		padding-top: 30px
+		padding-bottom: 30px
+
+	&-highlight
+		.section-heading
+			color: white
+			.head-title
+				color: inherit
+
+			.section-line
+				background-color: $gray-lighter
+
+
+
+.partners
+	border-top: 1px solid $gray-lighter
+
+	.partners-title
+		text-transform: uppercase
+		margin-bottom: 5px
+
+	.partner-link img
+		transition: filter .2s ease-in-out, opacity .2s ease-in-out;
+		filter: grayscale(200%) brightness(0%) contrast(100%)
+		opacity: 0.5
+		max-height: 40px
+
+		&:hover
+			filter: grayscale(0%)
+			opacity: 1
+
+.philosophy
+	.title-icon
+		margin-right: 6px
+	.philosophy-item
+		margin-top: 30px
+
+.projects
+	.project-item
+		margin-top: 30px
+
+.contact
+	background-color: lighten($brand-primary, 5%)
+	.section-heading .section-line
+		margin-bottom: 50px
+
+.footer
+	color: $gray-lighter
+	background-color: darken($brand-primary, 20%);
+
+	.copyright
+		padding-top: 10px
+		color: $gray-light
+		@media (max-width: $screen-sm-min)
+			text-align: center
+
+	.social-links
+		text-align: right
+		@media (max-width: $screen-sm-min)
+			margin-top: 16px
+			text-align: center
+		.social-link
+			font-size: 1.2em
+			margin-left: 5px
+
+			&:first-child
+				margin-left: 0

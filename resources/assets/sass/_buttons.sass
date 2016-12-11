@@ -1,9 +1,15 @@
+.btn-secondary
+  @include button-variant(white, $brand-secondary, $brand-secondary);
+
 .btn-outline
   background-color: transparent
   color: inherit
 
 .btn-primary.btn-outline
   color: $btn-primary-bg
+
+.btn-secondary.btn-outline
+  color: $brand-secondary
 
 .btn-success.btn-outline
   color: $btn-success-bg
