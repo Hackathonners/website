@@ -1,0 +1,34 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Hackathonners | A bunch of people who build things
+email: contact@hackathonners.org
+description: > # this means to ignore newlines until "baseurl:"
+  We are a continuous learning group of people who come together in hackathons.
+   In hackathon-like meetings, we discuss ideas and improve our development process
+   through building prototypes of solutions to real world problems.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://hackathonners.org/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: Hackathonners
+github_username: Hackathonners
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
