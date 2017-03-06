@@ -8228,6 +8228,7 @@ a {
 .hero .hero-content .hero-subtitle {
   text-align: left;
   color: #e2deee;
+  max-width: 800px;
 }
 
 .hero .hero-content .hero-action {
@@ -8245,7 +8246,7 @@ a {
 
 .stripes {
   width: 100%;
-  height: 560px;
+  height: 600px;
   overflow: hidden;
   -webkit-transform: skewY(-12deg);
   transform: skewY(-12deg);
@@ -8286,7 +8287,7 @@ a {
 
 @media (min-width: 768px) {
   .stripes #stripe1 {
-    top: 0;
+    top: 50px;
     background: #a47cf4;
   }
 }
@@ -8308,7 +8309,7 @@ a {
     width: 16.66667%;
     top: 300px;
     bottom: auto;
-    height: 100px;
+    height: 140px;
     background: #7f5bc7;
   }
 }
