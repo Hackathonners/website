@@ -8328,7 +8328,7 @@ a {
 
 @media (min-width: 768px) {
   .stripes #stripe3 {
-    width: 33.33333%;
+    width: 27%;
     right: auto;
     background: #311f68;
   }
@@ -8338,7 +8338,7 @@ a {
   position: absolute;
   width: 33%;
   right: 0;
-  top: 150px;
+  top: 200px;
   background: #311f68;
 }
 
@@ -8362,10 +8362,10 @@ a {
 
 #stripe7 {
   position: absolute;
-  width: 5%;
+  width: 10%;
   left: 0;
   top: 0;
-  height: 30px;
+  height: 70px;
   background: #7f5bc7;
 }
 
