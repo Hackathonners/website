@@ -16,24 +16,36 @@
 
 		.hero-title
 			margin-bottom: 16px
+			color: #e2deee
+			text-align: left
 
-		.hero-title,
 		.hero-subtitle
-		text-align: left
+			text-align: left
+			color : #e2deee
 		// 	font-weight: bold
 
 		.hero-action
 			margin-top: 26px
+.hero-wrapper
+	transform: skewY(12deg)
+	transform-origin: 0
+	position: relative
+	padding-top: 10px
 
 .stripes
 	width: 100%
-	height: 100%
+	height: 560px
 	overflow: hidden
 	transform: skewY(-12deg)
 	transform-origin: 0
-	background: linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%)
-	position: absolute
-
+	background: linear-gradient(150deg, #311f68 30%, #352d7b 60%,rgb(164, 124, 244) 94%)
+	position: relative
+	// #5950aa meio-escuro
+	// #311f68 azul-rosa 
+	// #352d7b escuro
+	// #e2deee claro
+	// rgb(164, 124, 244) rosa
+	// #311f68 mais escuro
 	span
      	position: absolute
      	@media (max-width: $screen-sm-min)
@@ -42,46 +54,76 @@
      	@media (min-width: $screen-sm-min)
      		height: 150px
 
-	:nth-child(1)
+	#stripe1
 		width: 50%
 		left: 50%
 		top: 40px
 		@media (max-width: $screen-sm-min)
-    		background: #4c29ff
+    		background: rgb(164, 124, 244)
 
 		@media (min-width: $screen-sm-min)
     		top: 0
-    		background: #4750ff
-    	 
+    		background: rgb(164, 124, 244)
 
 
-	:nth-child(2)
+
+	#stripe2
 		width: 14%
 		right: 0
 		bottom: 40px
 		@media (max-width: $screen-sm-min) 
-    		background: #2be7ff
+    		background: #7f5bc7
 		
 		@media (min-width: $screen-sm-min)
 			width: 16.66667%
 			top: 300px
 			bottom: auto
-			background: #0dcfff
+			height: 100px
+			background: #7f5bc7
 
 
-	:nth-child(3)
+	#stripe3
 		width: 25%
 		bottom: 0
 		right: 0
 		@media (max-width: $screen-sm-min)
-    		background: #a1ffc8
+    		background: #311f68
 		
 		@media (min-width: $screen-sm-min)
     		width: 33.33333%
     		right: auto
-    		background: #11bdff
+    		background: #311f68
 
-    	
+#stripe4
+	position: absolute
+	width: 33%
+	right: 0
+	top: 150px
+	background: #311f68
+
+#stripe5
+	position: absolute
+	width: 40%
+	left: 0
+	bottom: 100px
+	height: 100px
+	background: #7f5bc7
+
+#stripe6
+	position: absolute
+	width: 10%
+	right: 0
+	bottom: 0
+	height: 160px
+	background: #311f68
+
+#stripe7
+	position: absolute
+	width: 5%
+	left: 0
+	top: 0
+	height: 30px
+	background: #7f5bc7	
 
 
 

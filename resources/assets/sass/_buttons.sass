@@ -1,3 +1,6 @@
+.btn-primary
+  color: $brand-secondary
+
 .btn-secondary
   @include button-variant(white, $brand-secondary, $brand-secondary);
 
@@ -30,8 +33,12 @@
 .btn-danger.btn-outline
   &:focus,
   &:hover
-    color: #fff
+    color: $brand-secondary
 
 .hero
   .btn
     border-width: 3px
+    color: $brand-primary
+
+a
+  color: $brand-secondary
