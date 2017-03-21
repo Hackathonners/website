@@ -8232,7 +8232,10 @@ a {
 }
 
 .hero .hero-content .hero-action {
-  margin-top: 26px;
+  margin-top: 36px;
+  color: #311f68;
+  background-color: #e2deee;
+  margin-right: 450px;
 }
 
 .hero-wrapper {
@@ -8252,8 +8255,8 @@ a {
   transform: skewY(-12deg);
   -webkit-transform-origin: 0;
   transform-origin: 0;
-  background: -webkit-linear-gradient(300deg, #311f68 30%, #352d7b 60%, #a47cf4 94%);
-  background: linear-gradient(150deg, #311f68 30%, #352d7b 60%, #a47cf4 94%);
+  background: -webkit-linear-gradient(300deg, #311f68 30%, #352d7b 60%, #5d43a0 94%);
+  background: linear-gradient(150deg, #311f68 30%, #352d7b 60%, #5d43a0 94%);
   position: relative;
 }
 
@@ -8281,6 +8284,9 @@ a {
 
 @media (max-width: 768px) {
   .stripes #stripe1 {
+    top: 50px;
+    height: 70px;
+    width: 70%;
     background: #3d2382;
   }
 }
@@ -8300,7 +8306,11 @@ a {
 
 @media (max-width: 768px) {
   .stripes #stripe2 {
-    background: #7f5bc7;
+    width: 6.66667%;
+    position: absolute;
+    bottom: 100px;
+    height: 140px;
+    background: #5d43a0;
   }
 }
 
@@ -8310,7 +8320,7 @@ a {
     position: absolute;
     bottom: 160px;
     height: 140px;
-    background: #7f5bc7;
+    background: #5d43a0;
   }
 }
 
@@ -8322,6 +8332,10 @@ a {
 
 @media (max-width: 768px) {
   .stripes #stripe3 {
+    width: 15%;
+    right: auto;
+    height: 120px;
+    bottom: 0;
     background: #311f68;
   }
 }
@@ -8334,31 +8348,70 @@ a {
   }
 }
 
-#stripe5 {
-  position: absolute;
-  width: 40%;
-  left: 0;
-  bottom: 100px;
-  height: 100px;
-  background: #2f1d54;
+@media (max-width: 768px) {
+  #stripe5 {
+    position: absolute;
+    width: 35%;
+    left: 0;
+    bottom: 120px;
+    height: 70px;
+    background: #2f1d54;
+  }
 }
 
-#stripe6 {
-  position: absolute;
-  width: 30%;
-  right: 0;
-  bottom: 0;
-  height: 160px;
-  background: #311f68;
+@media (min-width: 768px) {
+  #stripe5 {
+    position: absolute;
+    width: 40%;
+    left: 0;
+    bottom: 100px;
+    height: 100px;
+    background: #2f1d54;
+  }
 }
 
-#stripe7 {
-  position: absolute;
-  width: 10%;
-  left: 0;
-  top: 0;
-  height: 70px;
-  background: #3d2382;
+@media (min-width: 768px) {
+  #stripe6 {
+    position: absolute;
+    width: 30%;
+    right: 0;
+    bottom: 0;
+    height: 160px;
+    background: #311f68;
+  }
+}
+
+@media (max-width: 768px) {
+  #stripe6 {
+    position: absolute;
+    width: 25%;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    background: #311f68;
+  }
+}
+
+@media (min-width: 768px) {
+  #stripe7 {
+    position: absolute;
+    width: 10%;
+    left: 0;
+    top: 0;
+    height: 70px;
+    background: #3d2382;
+  }
+}
+
+@media (max-width: 768px) {
+  #stripe7 {
+    position: absolute;
+    width: 5%;
+    left: 0;
+    top: 0;
+    height: 40px;
+    background: #3d2382;
+  }
 }
 
 .social-list {

@@ -26,7 +26,10 @@
         //  font-weight: bold
 
         .hero-action
-            margin-top: 26px
+            margin-top: 36px
+            color: #311f68
+            background-color: #e2deee
+            margin-right: 450px
 .hero-wrapper
     transform: skewY(12deg)
     transform-origin: 0
@@ -39,7 +42,7 @@
     overflow: hidden
     transform: skewY(-12deg)
     transform-origin: 0
-    background: linear-gradient(150deg, #311f68 30%, #352d7b 60%,rgb(164, 124, 244) 94%)
+    background: linear-gradient(150deg, #311f68 30%, #352d7b 60%, #5d43a0 94%)
     position: relative
     // #5950aa meio-escuro
     // #311f68 azul-rosa 
@@ -60,8 +63,10 @@
         left: 50%
         top: 40px
         @media (max-width: $screen-sm-min)
+            top: 50px
+            height: 70px
+            width: 70%
             background: #3d2382
-
         @media (min-width: $screen-sm-min)
             top: 50px
             background: #3d2382
@@ -73,14 +78,17 @@
         right: 0
         bottom: 40px
         @media (max-width: $screen-sm-min) 
-            background: #7f5bc7
-        
+            width: 6.66667%
+            position: absolute
+            bottom: 100px
+            height: 140px
+            background: #5d43a0
         @media (min-width: $screen-sm-min)
             width: 16.66667%
             position: absolute
             bottom: 160px
             height: 140px
-            background: #7f5bc7
+            background: #5d43a0
 
 
     #stripe3
@@ -88,6 +96,10 @@
         bottom: 0
         right: 0
         @media (max-width: $screen-sm-min)
+            width: 15%
+            right: auto
+            height: 120px
+            bottom: 0
             background: #311f68
         
         @media (min-width: $screen-sm-min)
@@ -103,28 +115,53 @@
 //     background: #311f68
 
 #stripe5
-    position: absolute
-    width: 40%
-    left: 0
-    bottom: 100px
-    height: 100px
-    background: #2f1d54
+    @media (max-width: $screen-sm-min)
+        position: absolute
+        width: 35%
+        left: 0
+        bottom: 120px
+        height: 70px
+        background: #2f1d54
+    @media (min-width: $screen-sm-min)
+        position: absolute
+        width: 40%
+        left: 0
+        bottom: 100px
+        height: 100px
+        background: #2f1d54
 
 #stripe6
-    position: absolute
-    width: 30%
-    right: 0
-    bottom: 0
-    height: 160px
-    background: #311f68
-
+    @media (min-width: $screen-sm-min)
+        position: absolute
+        width: 30%
+        right: 0
+        bottom: 0
+        height: 160px
+        background: #311f68
+    @media (max-width: $screen-sm-min)
+        position: absolute
+        width: 25%
+        right: 0
+        bottom: 0
+        height: 100px
+        background: #311f68
 #stripe7
-    position: absolute
-    width: 10%
-    left: 0
-    top: 0
-    height: 70px
-    background: #3d2382
+    @media (min-width: $screen-sm-min)
+        position: absolute
+        width: 10%
+        left: 0
+        top: 0
+        height: 70px
+        background: #3d2382
+    @media (max-width: $screen-sm-min)
+        position: absolute
+        width: 5%
+        left: 0
+        top: 0
+        height: 40px
+        background: #3d2382
+
+
 
 
 
