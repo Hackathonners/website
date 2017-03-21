@@ -8069,7 +8069,7 @@ button.close {
 }
 
 .navbar {
-  padding: 8px 0px;
+  padding: 45px 0px;
   -webkit-transform: skewY(12deg);
   transform: skewY(12deg);
   -webkit-transform-origin: 0;
@@ -8228,7 +8228,7 @@ a {
 .hero .hero-content .hero-subtitle {
   text-align: left;
   color: #e2deee;
-  max-width: 800px;
+  max-width: 600px;
 }
 
 .hero .hero-content .hero-action {
@@ -8246,7 +8246,7 @@ a {
 
 .stripes {
   width: 100%;
-  height: 600px;
+  height: 800px;
   overflow: hidden;
   -webkit-transform: skewY(-12deg);
   transform: skewY(-12deg);
@@ -8281,14 +8281,14 @@ a {
 
 @media (max-width: 768px) {
   .stripes #stripe1 {
-    background: #a47cf4;
+    background: #3d2382;
   }
 }
 
 @media (min-width: 768px) {
   .stripes #stripe1 {
     top: 50px;
-    background: #a47cf4;
+    background: #3d2382;
   }
 }
 
@@ -8307,8 +8307,8 @@ a {
 @media (min-width: 768px) {
   .stripes #stripe2 {
     width: 16.66667%;
-    top: 300px;
-    bottom: auto;
+    position: absolute;
+    bottom: 160px;
     height: 140px;
     background: #7f5bc7;
   }
@@ -8334,26 +8334,18 @@ a {
   }
 }
 
-#stripe4 {
-  position: absolute;
-  width: 33%;
-  right: 0;
-  top: 200px;
-  background: #311f68;
-}
-
 #stripe5 {
   position: absolute;
   width: 40%;
   left: 0;
   bottom: 100px;
   height: 100px;
-  background: #7f5bc7;
+  background: #2f1d54;
 }
 
 #stripe6 {
   position: absolute;
-  width: 10%;
+  width: 30%;
   right: 0;
   bottom: 0;
   height: 160px;
@@ -8366,7 +8358,7 @@ a {
   left: 0;
   top: 0;
   height: 70px;
-  background: #7f5bc7;
+  background: #3d2382;
 }
 
 .social-list {
