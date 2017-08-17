@@ -8084,8 +8084,16 @@ button.close {
   padding: 18px 15px;
 }
 
+.navbar .navbar-toggle {
+  right: 5%;
+}
+
 .navbar .navbar-toggle .icon-bar {
-  background-color: #3b364a;
+  background-color: #e2deee;
+}
+
+.navbar .navbar-right a:hover {
+  color: white;
 }
 
 .btn-primary {
@@ -8191,6 +8199,10 @@ fieldset[disabled] .btn-secondary.focus {
 }
 
 a {
+  color: #c4bcdd;
+}
+
+a:hover {
   color: #352d7b;
 }
 
@@ -8219,6 +8231,13 @@ a {
   z-index: 2;
 }
 
+@media (max-width: 768px) {
+  .hero .hero-content {
+    margin: 20px;
+    margin-top: -40px;
+  }
+}
+
 .hero .hero-content .hero-title {
   margin-bottom: 16px;
   color: #e2deee;
@@ -8245,11 +8264,17 @@ a {
   transform-origin: 0;
   position: relative;
   padding-top: 10px;
+  padding-bottom: 350px;
+}
+
+@media (max-width: 768px) {
+  .hero-wrapper {
+    padding-bottom: 150px;
+  }
 }
 
 .stripes {
   width: 100%;
-  height: 800px;
   overflow: hidden;
   -webkit-transform: skewY(-12deg);
   transform: skewY(-12deg);
@@ -8284,8 +8309,8 @@ a {
 
 @media (max-width: 768px) {
   .stripes #stripe1 {
-    top: 50px;
-    height: 70px;
+    top: 0px;
+    height: 130px;
     width: 70%;
     background: #3d2382;
   }
@@ -8306,10 +8331,10 @@ a {
 
 @media (max-width: 768px) {
   .stripes #stripe2 {
-    width: 6.66667%;
+    width: 8%;
     position: absolute;
     bottom: 100px;
-    height: 140px;
+    height: 180px;
     background: #5d43a0;
   }
 }
@@ -8332,7 +8357,7 @@ a {
 
 @media (max-width: 768px) {
   .stripes #stripe3 {
-    width: 15%;
+    width: 35%;
     right: auto;
     height: 120px;
     bottom: 0;
@@ -8351,10 +8376,10 @@ a {
 @media (max-width: 768px) {
   #stripe5 {
     position: absolute;
-    width: 35%;
+    width: 20%;
     left: 0;
     bottom: 120px;
-    height: 70px;
+    height: 120px;
     background: #2f1d54;
   }
 }
